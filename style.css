@@ -1,0 +1,141 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+body{
+    /* padding: 20px; */
+    background-color: #989898;
+}
+main{
+    padding: 20px;
+    background-color: #989898;
+}
+header {
+    background-color: #1c2883;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+}
+nav {
+    /* background-color: #444; */
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color:  #323d8f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 20%;
+    text-wrap: nowrap;
+}
+nav a:hover {
+    background-color: #1c2883;
+}
+
+header h1{
+    font-size: 2rem;
+    margin: 0;
+    color: #fff;
+}
+
+.info-text {
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.info-text h2{
+    text-align: center;
+}
+h3 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.prominent{
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ccc; /* Adds a border under h3 */
+    padding-bottom: 5px; /* Adds spacing between text and border */
+}
+
+section {
+    /* padding: 20px; */
+}
+div.project{
+    background-color: #e2a4a4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.lecture, .exercise {
+    margin-bottom: 20px;
+    background-color: #DCDCDC;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+}
+span {
+    font-weight: bold;
+    color: #e31111; /* Orange color for emphasis */
+    /* font-size: 1.2em; */
+}
+.lecture-watch{
+    font-weight: bold;
+}
+
+.output-box {
+    background-color: #222;
+    color: #0f0;
+    /* font-family: 'Courier New', monospace; */
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  }
+  pre {
+    margin: 0;
+    overflow-x: auto;
+  }
+  
+  code, code p {
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+  }
+
+  .comlete-msg{
+    color: blue;
+    margin-left: 20px;
+  }
+  .exe-id{
+    color: #080503; /* Orange color for emphasis */
+    font-weight: bold;  
+    margin-left: 0; margin-right: 0;
+  }
+  .bold{
+    font-weight: bold;
+    margin-left: 0;
+  }
+
+  
+
+.problem-descripiton-paragrph{
+  line-height: 2;
+}
+
+.take-lectures{
+   background-color: #BEBEBE;
+   padding: 10px 0px;
+}

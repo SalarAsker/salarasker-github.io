@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+body{
+    padding: 20px;
+  
+    background-color: #989898;
+}
+main{
+    padding: 30px;
+    background-color: #989898;
+}
+header {
+    background-color: #1c2883;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    margin: 10px;
+}
+nav {
+    /* background-color: #444; */
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color:  #323d8f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 20%;
+    text-wrap: nowrap;
+}
+nav a:hover {
+    background-color: #1c2883;
+}
+
+header h1{
+    font-size: 2rem;
+    margin: 0;
+    color: #fff;
+}
+
+.info-text {
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.info-text h2{
+    text-align: center;
+}
+        /* General layout */
+.lecture-list {
+    max-width: 50%;
+    margin: 1rem auto;
+    /* padding: 1rem; */
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lecture-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lecture-list li {
+    /* padding: 0.3rem; */
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.lecture-list li:last-child {
+    border-bottom: none;
+}
+
+.lecture-title {
+    /* display: block; */
+    font-weight: bold;
+    /* margin-bottom: 0.5rem; */
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-right: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #005fa3;
+}
+
+    </style>
+</head>
+
+
+<body>
+    
+
+    <header>
+        <h1>Welcome To The C# Course Website</h1>
+
+        <nav>
+            <a href="index.html">Exercise Plan</a>
+            <a href="courselectures.html">Course Lectures</a>
+            
+        </nav>
+    </header>
+   
+
+    <main>
+        <h1>Courselectures</h1>
+        <p>Courselectures are a type of lecture that focuses on practical applications and hands-on learning.</p>
+        
+        <section class="lecture-list">
+            <ul>
+                <li>
+                    <span class="lecture-title">0. Introduction of the course.</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-into" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">1. Create a C# console application and study it.</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-into" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">2. The WriteLine method</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-into" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">3. Escape sequences in C#.</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-escape" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">4. Put and use comments in. C#</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-escape" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">5. Errors in programmering.</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-escape" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">6. Variables and data types.</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-variables" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">7. Output Variables and concatenation.</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-output" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">8. Output Variables and interpolation.</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-interpolation" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">9. Working with constant fields.</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-constant" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">10. Arithmetic operators</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-arithmetic" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">11. Math library.</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-math" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">12. How to get help.</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-get-help" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">13. To get input: ReadLine() method</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-readline" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">14. Arithmetic assignment operators</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-arithmetic-assignment" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">15. Increment and decrement operators</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-arithmetic-assignment" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">16. Relational operators</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-relational" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">17. Logical operators</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-logical" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">18. If statements</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-if-statement" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">19. Switch statement</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-switch-statement" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">20. Ternary operator</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="index.html#exercise-switch-statement" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title"> Project: Bank Application – Petter’s Account</span>
+                    <!-- <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div> -->
+                </li>
+                <li>
+                    <span class="lecture-title">21. Generate random numbers</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">22. Date and time</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">23. While loop</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">24. do-while loop</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">25. For loop</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">26. Nested for loops</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">27. break and continue statement</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">28. Introduction to collections in C#</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">29. One dimensional array (Linear array)</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">30. Loop through one dimensional array</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">31. foreach loop</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">2. The WriteLine method</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">2. The WriteLine method</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">2. The WriteLine method</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">2. The WriteLine method</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">2. The WriteLine method</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="lecture-title">2. The WriteLine method</span>
+                    <div>
+                        <a href="#" class="btn">Watch lecture</a>
+                        <a href="#" class="btn">Do exercises</a>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+        
+
+  
+    </main>
+
+</body>
+</html>
